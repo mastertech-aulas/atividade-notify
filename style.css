@@ -10,7 +10,7 @@ body{
                         'div div div div'
                         'footer footer footer footer';
     grid-template-columns: 25%;
-    grid-template-rows: 450px 300px 350px 100px;
+    grid-template-rows: 450px 300px 450px 100px;
     margin: 0;
 }
 
@@ -125,4 +125,49 @@ header .div-informations div{
 
 header .div-informations div img{
     width: 40px;
+}
+
+section{
+    align-items: flex-start;
+    background-color: #E3E3E3;
+    display: flex;
+    grid-area: section;
+    justify-content: space-around;
+    padding: 70px 100px 0 100px;
+}
+
+section .div-updates{
+    width: 40%
+}
+section .div-updates h3{
+    font-size: 16pt;
+}
+section .div-updates p{
+    color: rgb(134, 134, 134);
+}
+
+section button{
+    background-color: #5FCD70;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-weight: 900;
+    font-size: 12pt;
+    height: 38px;
+    width: 110px;
+}
+section input{
+    border: 1px solid rgb(185, 185, 185);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #E3E3E3;
+    height: 35px;
+    margin: 0;
+    padding-left: 20px;
+    width: 220px;
+}
+section input::placeholder{
+    color: rgb(165, 164, 164);
+    font-size: 11pt;
 }
